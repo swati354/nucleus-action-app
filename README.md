@@ -2,7 +2,7 @@
 
 A comprehensive clinical assessment Action App designed for medical organizations to streamline patient evaluation workflows. Built with React, TypeScript, and seamless UiPath Orchestrator integration.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/swati354/nucleus-action-app)
 
 ## Overview
 
@@ -129,7 +129,7 @@ src/
 
 ### Cloudflare Pages
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/swati354/nucleus-action-app)
 
 This project is optimized for deployment on Cloudflare Pages:
 

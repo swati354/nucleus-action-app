@@ -33,7 +33,6 @@ import {
   Phone,
   Mail
 } from 'lucide-react';
-import { VBDataType } from '@/types/action-schema';
 /**
  * Initial data for the form (shown before Action Center sends data)
  */
@@ -514,7 +513,7 @@ function DecisionTab({
                 <ActionFormField
                   name="reviewerComments"
                   label=""
-                  type={VBDataType.String}
+                  type="string"
                   required={true}
                   readOnly={isReadOnly}
                   value={formData.reviewerComments}

@@ -2,20 +2,26 @@
   "inputs": {
     "type": "object",
     "properties": {
-      "exampleInput": {
+      "patientName": {
         "type": "string",
-        "required": true,
-        "description": "Example input field from automation"
+        "required": true
+      },
+      "faxNumber": {
+        "type": "string",
+        "required": true
+      },
+      "emailAddress": {
+        "type": "string",
+        "required": true
       }
     }
   },
   "outputs": {
     "type": "object",
     "properties": {
-      "exampleOutput": {
+      "reviewerComments": {
         "type": "string",
-        "required": true,
-        "description": "Example output field user must provide"
+        "required": true
       }
     }
   },
@@ -26,13 +32,11 @@
   "outcomes": {
     "type": "object",
     "properties": {
-      "Approve": {
-        "type": "string",
-        "description": "Approve the request"
+      "Correct": {
+        "type": "string"
       },
-      "Reject": {
-        "type": "string",
-        "description": "Reject the request"
+      "Incorrect": {
+        "type": "string"
       }
     }
   }
